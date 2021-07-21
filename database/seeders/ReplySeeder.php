@@ -14,6 +14,6 @@ class ReplySeeder extends Seeder
      */
     public function run()
     {
-        Reply::factory()->count(10)->create();
+        Reply::factory()->count(40)->create();
     }
 }

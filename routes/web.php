@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ReplyController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ThreadController;
 
@@ -9,7 +10,10 @@ Route::get('/', function () {
 });
 
 
-Route::resource('threads', ThreadController::class);
+Route::resource('threads', ThreadController::class)->except('show');
+Route::post('threads/{channel}/{thread}/replies', [ReplyController::class, 'store']);
+Route::get('threads/{channel}/{thread}', [ThreadController::class, 'show'])->name('threads.show');
+
 
 Auth::routes();
 

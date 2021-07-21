@@ -30,7 +30,7 @@ class ReplyFactory extends Factory
             'user_id' => function(){
               return User::factory()->create()->id;
             },
-            'body' => $this->faker->paragraph
+            'body' => $this->faker->paragraph()
         ];
     }
 }

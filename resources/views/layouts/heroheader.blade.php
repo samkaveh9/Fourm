@@ -1,51 +1,23 @@
-
-    <!-- ==========header mega navbar=======-->
-    <div class="top-menu-bottom932">
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                    <a class="navbar-brand" href="#"><img src="image/logo.png" alt="Logo"></a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav"> </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="ask_question.html">Ask Question</a></li>
-                        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Question <span class="caret"></span></a>
-                            <ul class="dropdown-menu animated zoomIn">
-                                <li><a href="category.html">Question Category</a></li>
-                                <li><a href="category.html">HTML</a></li>
-                                <li><a href="category.html">CSS</a></li>
-                                <li><a href="category.html">Javascript</a></li>
-                                <li><a href="category.html">Bootstrap</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="caret"></span></a>
-                            <ul class="dropdown-menu animated zoomIn">
-                                <li><a href="blog.html">Blog </a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Page <span class="caret"></span></a>
-                            <ul class="dropdown-menu animated zoomIn">
-                                <li><a href="logIn.html">Login</a></li>
-                                <li><a href="contact_us.html"> Contact Us</a></li>
-                                <li><a href="ask_question.html"> Ask Question </a></li>
-                                <li><a href="post-deatils.html"> Post-Details </a></li>
-                                <li><a href="user.html">All User</a></li>
-                                <li><a href="user_question.html"> User Question </a></li>
-                                <li><a href="category.html"> Category </a></li>
-                                <li><a href="#"> 404 </a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact_us.html">Contact us</a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
+<section class="welcome-part-one">
+    <div class="container">
+        <div class="welcome-demop102 text-center">
+            <h2>Welcome to Ask me, Awesome Questions & Answer Template</h2>
+            <p>Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque
+                <br> habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit
+            </p>
+            <div class="button0239-item">
+                <a href="#">
+                    <button type="button" class="aboutus022">About Us</button>
+                </a>
+                <a href="#">
+                    <button type="button" class="join92">Join Now</button>
+                </a>
             </div>
-            <!-- /.container-fluid -->
-        </nav>
+            <div class="form-style8292">
+                <div class="input-group"> <span class="input-group-addon"><i class="fa fa-pencil-square" aria-hidden="true"></i></span>
+                    <input type="text" class="form-control form-control8392" placeholder="Ask any question and you be sure find your answer ?"> <span class="input-group-addon"><a href="#">Ask Now</a></span>
+                </div>
+            </div>
+        </div>
     </div>
+</section>

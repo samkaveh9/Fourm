@@ -1,18 +1,19 @@
 <!--    footer -->
-<div class="footer-search">
+{{--  <div class="footer-search">
     <div class="container">
         <div class="row">
             <div id="custom-search-input">
                 <div class="input-group col-md-12"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                     <input type="text" class="  search-query form-control user-control30" placeholder="Search here...." /> <span class="input-group-btn">
-<button class="btn btn-danger" type="button">
-    <span class=" glyphicon glyphicon-search"></span> </button>
+                        <button class="btn btn-danger" type="button">
+                            <span class=" glyphicon glyphicon-search"></span> 
+                        </button>
                     </span>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div>  --}}
 <section class="footer-part">
     <div class="container">
         <div class="row">
@@ -105,6 +106,6 @@ Themehttps://t.co/urb3LgsOCi</a></p> <small>about 2 weeks ago</small> </div>
 <script src="/js/jquery-3.1.1.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/npm.js"></script>
+@stack('scripts')
 </body>
-
 </html>

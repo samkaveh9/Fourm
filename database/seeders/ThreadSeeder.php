@@ -14,6 +14,6 @@ class ThreadSeeder extends Seeder
      */
     public function run()
     {
-        Thread::factory()->count(10)->create();
+        Thread::factory()->count(40)->create();
     }
 }
